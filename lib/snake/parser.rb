@@ -17,7 +17,7 @@ module Snake
 
       def compare(new_vars, default_vars)
         default_vars.each_pair do |key, var|
-          new_vars.delete_if { |new_key, new_var| new_var.eql?(var) }
+          new_vars.delete_if { |new_key, new_var| new_key.eql?(key) && new_var.eql?(var) }
         end
         new_vars
       end
