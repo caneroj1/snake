@@ -9,7 +9,7 @@ module Snake
 
       gsub_file File.join(Rails.root, STYLES_PATH), "@import 'bootstrap-sprockets';", "@import \"bootstrap-sprockets\";"
       gsub_file File.join(Rails.root, STYLES_PATH), "@import \"snake_vars\";", ""
-      inject_into_file File.join(Rails.root, STYLES_PATH), after: /"@import \"bootstrap-sprockets\";\n" do
+      inject_into_file File.join(Rails.root, STYLES_PATH), after: "@import \"bootstrap-sprockets\";\n" do
         <<-INSERT
 @import "snake_vars";
         INSERT
