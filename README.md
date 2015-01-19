@@ -1,4 +1,5 @@
 <h1>Snake</h1>
+[![Build Status](https://travis-ci.org/caneroj1/snake.svg?branch=master)](https://travis-ci.org/caneroj1/snake)
 <a href="https://rubygems.org/gems/snake">Ruby Gems Page</a>
 <p>Snake is a Rails plugin that parses custom downloads of Twitter Bootstrap v3. When you customize your own version of Twitter Bootstrap <a href="http://getbootstrap.com/customize/">here</a>, one of the files you receive is a config.json file that specifies all of the customization you just made.</p>
 
