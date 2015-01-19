@@ -4,7 +4,7 @@
 
 If you are using `gem "bootstrap-sass"`, I've found it slightly difficult to load up all of this customization without having to write it yourself. Using Snake, you can just customize your download of Bootstrap and get it loaded in right away.
 <h2>Usage</h2>
-Create a new directory under `app/assets/stylesheets` called json and put your config.json file there.<br/>
+Create a new directory under `app/assets/` called json and put your config.json file there.<br/>
 Add `gem "snake"` to your Gemfile.<br/>
 Update and run tests: `bundle update && rake`.<br/>
 Parse config.json by running `rails g snake:parse`.<br/>
