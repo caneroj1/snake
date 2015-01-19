@@ -4,7 +4,7 @@ module Snake
     class << self
       def write(vars)
         file = open_file
-        vars.each_pair { |key, val| file.puts "$#{key.gsub(/@/, "")} : #{val};" }
+        vars.each_pair { |key, val| file.puts "$#{key.gsub(/@/, "")} : #{val.gsub(/@/, ""};" }
         file.close
       end
 
