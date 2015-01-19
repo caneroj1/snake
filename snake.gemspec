@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Snake::VERSION
   s.authors     = ["caneroj1"]
   s.email       = ["caneroj1@tcnj.edu"]
-  s.homepage    = "github.com/caneroj1/snake"
+  s.homepage    = "https://github.com/caneroj1/snake"
   s.summary     = "Parse config.json included with custom downloads of Twitter Bootstrap."
   s.description = "Parse config.json included with custom downloads of Twitter Bootstrap and use it with your Rails app."
   s.license     = "MIT"
