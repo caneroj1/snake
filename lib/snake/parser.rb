@@ -12,7 +12,7 @@ module Snake
       end
 
       def get_default_variables
-        JSON.parse(File.read(File.expand_path("json/defaults.json")))["vars"]
+        JSON.parse(File.read(File.join(File.dirname(__FILE__), "/json/defaults.json")))["vars"]
       end
 
       def compare(new_vars, default_vars)
